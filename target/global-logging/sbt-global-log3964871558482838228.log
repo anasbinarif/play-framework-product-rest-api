@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(libraryDependencies, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: libraryDependencies[0m
+[0m[[0m[0minfo[0m] [0m[0m* org.scala-lang:scala-library:2.13.10[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.typesafe.play:twirl-api:1.5.1[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.typesafe.play:play-server:2.8.19[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.typesafe.play:play-test:2.8.19:test[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.typesafe.play:play-docs:2.8.19:docs[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.typesafe.play:play-logback:2.8.19[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.typesafe.play:play-akka-http-server:2.8.19[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.typesafe.play:play-java-forms:2.8.19[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.typesafe.play:filters-helpers:2.8.19[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.typesafe.play:play-guice:2.8.19[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.typesafe.play:play-java-jpa:2.8.19[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.h2database:h2:1.4.200[0m
+[0m[[0m[0minfo[0m] [0m[0m* org.hibernate:hibernate-core:5.6.15.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m* io.dropwizard.metrics:metrics-core:4.2.17[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.palominolabs.http:url-builder:1.1.5[0m
+[0m[[0m[0minfo[0m] [0m[0m* net.jodah:failsafe:2.4.4[0m
+[0m[[0m[0minfo[0m] [0m[0m* com.typesafe.play:play-java:2.8.19[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

@@ -1,0 +1,24 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Seed data
+GET /                                        controllers.SeedDataController.insertCategories
+GET /seed-data/insert-categories             controllers.SeedDataController.insertCategories
+
+
+
+
+# Category Routes
+POST    /categories                          controllers.CategoryController.create(request:Request)
+GET     /categories                          controllers.CategoryController.findAll
+
+# Product routes
+POST    /products                            controllers.ProductController.create(request:Request)
+GET     /products                            controllers.ProductController.findAll(page: Int ?= 1, pageSize: Int ?= 5, sortBy: String ?= "id")
+GET     /products/:id                        controllers.ProductController.getById(id:Long)
+PUT     /products/:id                        controllers.ProductController.update(id:Long, request:Request)
+DELETE  /products/:id                        controllers.ProductController.delete(id:Long)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file                        controllers.Assets.versioned(path="/public", file: Asset)

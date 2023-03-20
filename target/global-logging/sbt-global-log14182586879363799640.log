@@ -1,0 +1,244 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addPluginSbtFile="""/tmp/idea2.sbt"""), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addPluginSbtFile="""/tmp/idea2.sbt""", None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.8.2 (Oracle Corporation Java 19.0.2)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: plugins took 135.908088ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: defsScala took 0.30096ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/anasarif/.sbt/1.0/plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/anasarif/.sbt/1.0/plugins, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 27.340168 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.resolveProject(global-plugins) took 69.624908ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/anasarif/.sbt/1.0/plugins, plugins: List(<none>))) took 129.721887ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/anasarif/.sbt/1.0/plugins, returning: (global-plugins)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: loadedProjectsRaw took 179.478947ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: cleanEvalClasses took 0.200386ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit(file:/home/anasarif/.sbt/1.0/plugins/, ...) took 328.058911ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: load took 690.050009ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: resolveProjects took 6.107071ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: finalTransforms took 170.057767ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: config.delegates took 7.854214ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: Def.make(settings)... took 572.830913ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: structureIndex took 182.278501ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: mkStreams took 2.192056ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading global plugins from /home/anasarif/.sbt/1.0/plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 3204.121979ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 21.126564ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.010606ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/anasarif/spring-boot udemy/play-samples/play-framework/project[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadUnit: mkEval took 10.358407ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/anasarif/spring-boot udemy/play-samples/play-framework/project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 1.922411 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project play-framework-build from plugins.sbt,idea2.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(play-framework-build) took 3.315706ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id play-framework-build, base: /home/anasarif/spring-boot udemy/play-samples/play-framework/project, plugins: List(<none>))) took 5.904026ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/anasarif/spring-boot udemy/play-samples/play-framework/project, returning: (play-framework-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 2886.917646ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 3.775737ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/home/anasarif/spring-boot%20udemy/play-samples/play-framework/project/, ...) took 2912.981344ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 2914.468886ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 0.171337ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 29.125617ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 0.753442ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 165.503099ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 38.125856ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 0.003026ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /home/anasarif/spring-boot udemy/play-samples/play-framework/project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[33mwarn[0m] [0m[0mUnrecognized repository Scala Plugin Bundled Repository, ignoring it[0m
+[0m[[0m[33mwarn[0m] [0m[0mUnrecognized repository Scala Plugin Bundled Repository, ignoring it[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 5395.156611ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.00899ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/anasarif/spring-boot udemy/play-samples/play-framework[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 0.275262ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found root project root w/ remaining [0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(play.sbt.PlayJava), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayAkkaHttp2Support),Set(Atom(play.sbt.PlayAkkaHttpServer)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayAkkaHttp2Support),Set(Atom(com.lightbend.sbt.javaagent.JavaAgent)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayFilters),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayLogback),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayMinimalJava),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.routes.RoutesCompiler)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsTask)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.twirl.sbt.SbtTwirl)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.test.MediatorWorkaroundPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.SbtNativePackager),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jlink.JlinkPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemVPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.UpstartPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.docker.DockerSpotifyClientPlugin),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.sbt.javaagent.JavaAgent),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging),Set(Atom(com.lightbend.sbt.javaagent.JavaAgent)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(play.sbt.PlayAkkaHttpServer)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayFilters)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayLayoutPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(play.sbt.PlayLogback)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(And(Set(Atom(com.lightbend.sbt.javaagent.JavaAgent), Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))),Set(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,play.sbt.PlayJava,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,play.sbt.PlayWeb,play.twirl.sbt.SbtTwirl,sbt.plugins.JvmPlugin,play.sbt.PlayService,play.sbt.PlayFilters,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,play.sbt.PlayLogback,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin,com.typesafe.sbt.jse.SbtJsEngine,play.sbt.PlayAkkaHttpServer,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin,com.typesafe.sbt.packager.docker.DockerPlugin,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 11.629255 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project root from build.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(root) took 138.762499ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id root, base: /home/anasarif/spring-boot udemy/play-samples/play-framework, plugins: List(play.sbt.PlayJava))) took 154.731167ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/anasarif/spring-boot udemy/play-samples/play-framework, returning: (root)[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 1703.507456ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 2.414793ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/home/anasarif/spring-boot%20udemy/play-samples/play-framework/, ...) took 7103.715915ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 7110.319246ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.225799ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 47.810075ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 0.918539ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 205.816843ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 51.388896ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.003289ms[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  __              __[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  \ \     ____   / /____ _ __  __[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m   \ \   / __ \ / // __ `// / / /[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m   / /  / /_/ // // /_/ // /_/ /[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  /_/  / .___//_/ \__,_/ \__, /[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m      /_/               /____/[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mVersion 2.8.19 running Java 19.0.2[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[1mPlay is run entirely by the community. Please consider contributing and/or donating:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mhttps://www.playframework.com/sponsors[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+[0m[[0m[0minfo[0m] [0m[0m  Java version is 19. Play supports only 8, 11 and, experimentally, 17.[0m
+[0m[[0m[0minfo[0m] [0m[0m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(; set ideaPort in Global := 41929 ; idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(set ideaPort in Global := 41929, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mDefining Global / ideaPort[0m
+[0m[[0m[0minfo[0m] [0m[0mThe new value will be used by Compile / compile, Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mDefining [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Global / ideaPort[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe new value will be used by [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / compile[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  __              __[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  \ \     ____   / /____ _ __  __[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m   \ \   / __ \ / // __ `// / / /[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m   / /  / /_/ // // /_/ // /_/ /[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  /_/  / .___//_/ \__,_/ \__, /[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m      /_/               /____/[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mVersion 2.8.19 running Java 19.0.2[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[1mPlay is run entirely by the community. Please consider contributing and/or donating:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mhttps://www.playframework.com/sponsors[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+[0m[[0m[0minfo[0m] [0m[0m  Java version is 19. Play supports only 8, 11 and, experimentally, 17.[0m
+[0m[[0m[0minfo[0m] [0m[0m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
